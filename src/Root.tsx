@@ -2,6 +2,7 @@ import "./index.css";
 import { Composition } from "remotion";
 import { WasteSorting } from "./Wastesorting";
 import { DebatGenerasi } from "./DebatGenerasi";
+import { FaktaSampah } from "./FaktaSampah";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -22,6 +23,14 @@ export const RemotionRoot: React.FC = () => {
         id="DebatGenerasi"
         component={DebatGenerasi}
         durationInFrames={360}
+        fps={30}
+        width={1280}
+        height={720}
+      />
+      <Composition
+        id="FaktaSampah"
+        component={FaktaSampah}
+        durationInFrames={150}
         fps={30}
         width={1280}
         height={720}
