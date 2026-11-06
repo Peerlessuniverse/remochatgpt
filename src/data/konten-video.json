@@ -1,0 +1,30 @@
+{
+  "judul": "TIPS SAMPAH BERSIH",
+  "subjudul": "Langkah Sederhana dari Dapur Kita",
+  "warnaTema": "#059669",
+  "musik": "asset/music-inspirational.mp3",
+  "volumeMusik": 0.25,
+  "adegan": [
+    {
+      "durasiDetik": 3,
+      "karakter": "asset/karakter-muda.png",
+      "pembicara": "Pemuda",
+      "teks": "Tiap hari masak, tapi sisa sayur dan kulit buah dibuang gitu aja?",
+      "emoji": "🥦"
+    },
+    {
+      "durasiDetik": 4,
+      "karakter": "asset/karakter-senior.png",
+      "pembicara": "Senior",
+      "teks": "Jangan dibuang! Olah jadi kompos organik untuk tanaman subur.",
+      "emoji": "🌱"
+    },
+    {
+      "durasiDetik": 3,
+      "karakter": "asset/logo.png",
+      "pembicara": "Sampahku",
+      "teks": "Ayo pilah sampah dapur hari ini bersama #SampahkuEnergimu!",
+      "emoji": "🌍"
+    }
+  ]
+}

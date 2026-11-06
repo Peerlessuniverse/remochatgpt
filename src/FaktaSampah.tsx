@@ -152,3 +152,4 @@ export const FaktaSampah = () => {
     </AbsoluteFill>
   );
 };
+

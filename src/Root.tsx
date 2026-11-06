@@ -3,6 +3,8 @@ import { Composition } from "remotion";
 import { WasteSorting } from "./Wastesorting";
 import { DebatGenerasi } from "./DebatGenerasi";
 import { FaktaSampah } from "./FaktaSampah";
+import { VideoDinamis } from "./VideoDinamis";
+import { SolarDoodleVideo } from "./solar/SolarDoodleVideo";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -34,6 +36,22 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1280}
         height={720}
+      />
+      <Composition
+        id="VideoDinamis"
+        component={VideoDinamis}
+        durationInFrames={300}
+        fps={30}
+        width={1280}
+        height={720}
+      />
+      <Composition
+        id="SolarDoodle"
+        component={SolarDoodleVideo}
+        durationInFrames={2100}
+        fps={30}
+        width={1080}
+        height={1920}
       />
     </>
   );
